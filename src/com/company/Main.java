@@ -8,6 +8,15 @@ package com.company;
 import java.util.ArrayList;
 import java.util.Random;
 
+import static com.company.TaskA.taskA;
+import static com.company.TaskB.taskB;
+import static com.company.TaskC.taskC;
+import static com.company.TaskD.taskD;
+import static com.company.TaskE.taskE;
+import static com.company.TaskF.taskF;
+import static com.company.TaskG.taskG;
+import static com.company.TaskH.taskH;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,13 +27,13 @@ public class Main {
             a.add(r.nextInt(10) * (r.nextBoolean() ? 1 : -1)); //hack to generate negative values
         }
 
-        TaskA.taskA(a);
-        TaskB.taskB(a);
-        TaskC.taskC(a);
-        TaskD.taskD(a);
-        TaskE.taskE(a);
-        TaskF.taskF(a);
-        TaskG.taskG(a);
-        TaskH.taskH(a);
+        taskA(a);
+        taskB(a);
+        taskC(a);
+        taskD(a);
+        taskE(a);
+        taskF(a);
+        taskG(a);
+        taskH(a);
     }
 }
