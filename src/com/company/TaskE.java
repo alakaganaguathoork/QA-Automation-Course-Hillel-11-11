@@ -16,12 +16,11 @@ public class TaskE {
         int maxValue = (Integer)Collections.max(a);
         int minValue = (Integer)Collections.min(a);
         int sum = 0;
-        int d;
 
         for(Integer in : a) {
             sum += in;
         }
 
-        System.out.println("Task F>>\n Get max, min and sum of collection values: \nMax: " + maxValue + ";\nMin: " + minValue + ";\nSum: " + sum + ".\n");
+        System.out.println("Task F>>\n Get max, min and sum of values in given collection: \nMax: " + maxValue + ";\nMin: " + minValue + ";\nSum: " + sum + ".\n");
     }
 }

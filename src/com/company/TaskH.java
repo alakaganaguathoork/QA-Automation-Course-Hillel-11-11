@@ -23,6 +23,6 @@ public class TaskH {
             result = "ERROR: No match with " + value;
         }
 
-        System.out.println("Task H>>\n Found prompted value in case if such exists: " + result + "\n");
+        System.out.println("Task H>>\n Found match with random value in case if such exists in a given collection: " + result + "\n");
     }
 }

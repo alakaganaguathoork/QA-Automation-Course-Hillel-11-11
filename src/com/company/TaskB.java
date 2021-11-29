@@ -13,6 +13,7 @@ public class TaskB {
     public static void taskB(ArrayList<Integer> a) {
 
         LinkedHashSet<Integer> set = new LinkedHashSet(a);
-        System.out.println("Task B>>\n Return unique values from a source collection: " + set + "\n");
+
+        System.out.println("Task B>>\n Return unique values from a given collection: " + set + "\n");
     }
 }

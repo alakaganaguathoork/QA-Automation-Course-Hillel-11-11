@@ -21,6 +21,6 @@ public class TaskG {
             }
         }
 
-        System.out.println("Task G>>\n Remove all odd values: " + odd + "\n");
+        System.out.println("Task G>>\n Remove all odd values from given collection: " + odd + "\n");
     }
 }

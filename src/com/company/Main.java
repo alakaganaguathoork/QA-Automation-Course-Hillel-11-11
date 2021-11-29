@@ -15,7 +15,7 @@ public class Main {
         Random r = new Random();
 
         while(a.size() < 10) {
-            a.add(r.nextInt(10) * (r.nextBoolean() ? 1 : -1));
+            a.add(r.nextInt(10) * (r.nextBoolean() ? 1 : -1)); //hack to generate negative values
         }
 
         TaskA.taskA(a);

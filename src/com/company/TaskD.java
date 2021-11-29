@@ -14,6 +14,6 @@ public class TaskD {
 
         Collections.sort(a);
 
-        System.out.println("Task D>>\n Sort source collection: " + a + "\n");
+        System.out.println("Task D>>\n Sort given collection: " + a + "\n");
     }
 }

@@ -22,6 +22,6 @@ public class TaskF {
             }
         }
 
-        System.out.println("Task F>>\n Create a collection including only positive values of a source collection:  " + positive + "\n");
+        System.out.println("Task F>>\n Create a collection including only positive values of a given collection:  " + positive + "\n");
     }
 }

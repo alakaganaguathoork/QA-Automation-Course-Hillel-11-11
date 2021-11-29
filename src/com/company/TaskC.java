@@ -16,6 +16,6 @@ public class TaskC {
 
         int size = set.size();
 
-        System.out.println("Task C>>\n Count unique values: " + size + "\n");
+        System.out.println("Task C>>\n Count unique values in a given collection: " + size + "\n");
     }
 }
