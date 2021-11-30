@@ -15,6 +15,6 @@ public class TaskE {
             sum += in;
         }
 
-        System.out.println("Task F>>\n Get max, min and sum of values in given collection: \nMax: " + maxValue + ";\nMin: " + minValue + ";\nSum: " + sum + ".\n");
+        System.out.println("Task E>>\n Get max, min and sum of values in given collection: \nMax: " + maxValue + ";\nMin: " + minValue + ";\nSum: " + sum + ".\n");
     }
 }

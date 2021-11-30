@@ -6,7 +6,7 @@ public class TaskG {
 
     public static void taskG(ArrayList<Integer> a) {
 
-        ArrayList<Integer> odd = new ArrayList();
+        ArrayList odd = new ArrayList();
 
         for (Integer in : a) {
             if (in % 2 == 0) {
