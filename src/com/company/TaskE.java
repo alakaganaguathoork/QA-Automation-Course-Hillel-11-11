@@ -2,14 +2,13 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Iterator;
 
 public class TaskE {
 
     public static void taskE(ArrayList<Integer> a) {
 
-        int maxValue = (Integer)Collections.max(a);
-        int minValue = (Integer)Collections.min(a);
+        int maxValue = Collections.max(a);
+        int minValue = Collections.min(a);
         int sum = 0;
 
         for(Integer in : a) {

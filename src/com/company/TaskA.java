@@ -6,7 +6,7 @@ public class TaskA {
 
     public static void taskA(ArrayList<Integer> a) {
 
-        ArrayList<Integer> numbers = (ArrayList)a.clone();
+        ArrayList numbers = (ArrayList)a.clone();
 
         System.out.println("Task A>>\n Create new collection filled with elements of given collection: " + numbers + "\n");
     }

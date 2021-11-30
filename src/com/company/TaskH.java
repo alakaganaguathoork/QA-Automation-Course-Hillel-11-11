@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class TaskH {
-    public TaskH() {
-    }
 
     public static void taskH(ArrayList<Integer> a) {
+
         String result;
         Random r = new Random();
         int value = r.nextInt(10);

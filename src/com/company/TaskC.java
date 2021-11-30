@@ -7,7 +7,7 @@ public class TaskC {
 
     public static void taskC(ArrayList<Integer> a) {
 
-        LinkedHashSet<Integer> set = new LinkedHashSet(a);
+        LinkedHashSet set = new LinkedHashSet(a);
 
         int size = set.size();
 

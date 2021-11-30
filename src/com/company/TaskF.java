@@ -1,14 +1,12 @@
 package com.company;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class TaskF {
-    public TaskF() {
-    }
 
     public static void taskF(ArrayList<Integer> a) {
-        ArrayList<Integer> positive = new ArrayList();
+
+        ArrayList positive = new ArrayList();
 
 
         for (Integer in : a) {

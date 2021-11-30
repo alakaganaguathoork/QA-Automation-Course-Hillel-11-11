@@ -1,3 +1,9 @@
+/**
+ * The Main class contains a common ArraList initialization filled with random ints. And each task within a separate class is called once after.
+ * So, all method calls in Main operate with one collection of ints, results presented as console logs.
+ *
+ */
+
 package com.company;
 
 import java.util.ArrayList;
@@ -15,6 +21,7 @@ import static com.company.TaskH.taskH;
 public class Main {
 
     public static void main(String[] args) {
+
         ArrayList a = new ArrayList();
         Random r = new Random();
 
