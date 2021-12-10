@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hometasks.collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
